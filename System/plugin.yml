@@ -1,0 +1,81 @@
+name: BlankSystem
+version: 1.0
+main: de.yatsu.system.main.Main
+
+commands:
+   infos:
+      aliases: [hilfe, help, ?, pl, plugins, ver, version, info]
+   fly:
+      permission: blank.fly
+   gm:
+      aliases: gamemode
+      permission: blank.gm
+   heal:
+      permission: blank.heal
+   teleport:
+      permission: blank.tp
+      aliases: tp
+   teleporthere:
+      permission: blank.tphere
+      aliases: tphere
+   setspawn:
+      permission: blank.setspawn
+   spawn:
+   kits:
+   kit:
+   murder:
+      permission: blank.murder
+      aliases: kill
+   suicide:
+   event:
+      permission: blank.event
+   arena:
+   clearchat:
+      aliases: cc
+   killall:
+      permission: blank.killall
+      aliases: [cl, clearlag]
+   vanish:
+      permission: blank.vanish
+   health:
+   hoe:
+   buehne:
+      permission: blank.buehne
+   ec:
+      aliases: enderchest
+   invsee:
+      permission: blank.invsee
+   list:
+      aliases: [online, players]
+   broadcast:
+      permission: blank.broadcast
+      aliases: bc
+   msg:
+      aliases: tell
+   back:
+      permission: blank.back
+   kick:
+      permission: blank.kick
+   ban:
+      permission: blank.ban
+   tpall:
+      permission: blank.tpall
+      aliases: teleportall
+   serverinfo:
+      aliases: sinfo
+   spectate:
+      permission: blank.spectate
+   speed:
+   op:
+      permission: blank.op
+      aliases: operator
+   deop:
+      permission: blank.deop
+   clear:
+      permission: blank.clear
+   ping:
+   prefix:
+      permission: blank.prefix
+   nick:
+   final:
+      permission: blank.final
